@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="nav">
         <ul>
           <li>
-            <NavLink to="/">Home </NavLink>
+            <NavLink to="./">Home </NavLink>
           </li>
           <li>
             <NavLink to="./Cv">CV </NavLink>
@@ -26,7 +26,7 @@ export default function Navbar() {
       </div>
 
       <div className="topnav">
-        <NavLink to="index.html" class="active">
+        <NavLink to="index.html" className="active">
           <i className="fa-solid fa-house"></i>
         </NavLink>
         {/* <!-- Navigation links (hidden by default) --> */}
@@ -42,7 +42,7 @@ export default function Navbar() {
           className="icon"
           onclick="hamburgerMenu()"
         >
-          <i class="fa fa-bars"></i>{" "}
+          <i className="fa fa-bars"></i>{" "}
         </NavLink>
       </div>
     </>

@@ -1,0 +1,23 @@
+.cv-section {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 50%;
+  margin-left: 20%;
+  min-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  border-left: 2px solid grey;
+  padding: 1rem;
+  margin: 2rem;
+}
+.item h3 {
+  color: rgb(42, 4, 149);
+}
+
+h1 {
+  text-align: center;
+}

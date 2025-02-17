@@ -1,8 +1,12 @@
-export default function cv() {
+import Datapars from "../components/cvDataparser";
+import "../styles/cv-page.css";
+
+export default function Cv() {
   return (
-    <div>
-      <h1>CV</h1>
-      <p>Hej! cv</p>
-    </div>
+    <>
+      <h1>Mitt CV</h1>
+
+      <Datapars />
+    </>
   );
 }
