@@ -39,7 +39,7 @@ export default function CvDataparser() {
           );
         })}
       </div>
-      <div ClassName="work">
+      <div className="work">
         <h2> Arbetslivserfarenhet</h2>
         {cvData.workExperience.map((CV) => {
           return (

@@ -2,6 +2,16 @@ import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 
 export default function Navbar() {
+  function hamburgerMenu() {
+    var x = document.getElementById("myLinks");
+
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
   return (
     <>
       <div className="nav">
@@ -13,10 +23,10 @@ export default function Navbar() {
             <NavLink to="./Cv">CV </NavLink>
           </li>
           <li>
-            <NavLink to="./portfolio">skills </NavLink>
+            <NavLink to="./portfolio">portfolio </NavLink>
           </li>
           <li>
-            <NavLink to="./skills">portfolio </NavLink>
+            <NavLink to="./skills">skills </NavLink>
           </li>
           <li>
             <NavLink to="./contact">contact </NavLink>
@@ -26,22 +36,26 @@ export default function Navbar() {
       </div>
 
       <div className="topnav">
-        <NavLink to="index.html" className="active">
+        <NavLink to="/" className="active">
           <i className="fa-solid fa-house"></i>
         </NavLink>
         {/* <!-- Navigation links (hidden by default) --> */}
         <div id="myLinks">
-          <NavLink to="cvpage.html">CV</NavLink>
-          <NavLink to="skills.html">Kunskaper</NavLink>
-          <NavLink to="portfolio.html">portfolio</NavLink>
-          <NavLink to="contact.html">Kontakt</NavLink>
+          <NavLink to="./Cv" onClick={hamburgerMenu}>
+            CV
+          </NavLink>
+          <NavLink to="./skills" onClick={hamburgerMenu}>
+            skills
+          </NavLink>
+          <NavLink to="./portfolio" onClick={hamburgerMenu}>
+            portfolio
+          </NavLink>
+          <NavLink to="./contact" onClick={hamburgerMenu}>
+            Kontakt
+          </NavLink>
         </div>
         {/* <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links --> */}
-        <NavLink
-          to="javascript:void(0);"
-          className="icon"
-          onclick="hamburgerMenu()"
-        >
+        <NavLink to="" className="icon" onClick={hamburgerMenu}>
           <i className="fa fa-bars"></i>{" "}
         </NavLink>
       </div>

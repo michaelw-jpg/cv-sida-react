@@ -1,7 +1,7 @@
 // import "./styles/header.css";
 export default function Home() {
   return (
-    <div>
+    <div id="main">
       <h1>Välkommen till min CV sida</h1>
       <p className="intro">
         Hej! Jag heter Michael och studerar just nu till .NET fullstack

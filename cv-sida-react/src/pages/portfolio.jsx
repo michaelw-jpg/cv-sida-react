@@ -1,11 +1,11 @@
-// import Github from "../components/getGithubData";
+import Github from "../components/getGithubData";
+import "../styles/githubstyle.css";
 
 export default function Portfolio() {
   return (
     <div>
-      <h1>CV</h1>
-      <p>Hej! portfolio</p>
-      {/* <Github /> */}
+      <h1>Portfolio</h1>
+      <Github />
     </div>
   );
 }

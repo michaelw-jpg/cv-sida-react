@@ -5,21 +5,25 @@ import Skills from "./pages/skills";
 import Contact from "./pages/contact";
 import CV from "./pages/Cv";
 import Navbar from "./components/navbar";
-// import "./App.css";
+import Footer from "./components/Footer";
+import EasterEgg from "./components/easterEgg";
 
 function App() {
   return (
     <>
+      {/* basename="/cv-sida-react" into browserrouter*/}
+      <EasterEgg />
       <BrowserRouter>
-        <Navbar /> // navigeringen hamnar ovanför! sidans innehåll!
+        <Navbar />
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/CV" element={<CV />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
