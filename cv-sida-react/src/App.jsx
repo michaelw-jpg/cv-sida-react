@@ -13,7 +13,7 @@ function App() {
     <>
       {/* basename="/cv-sida-react" into browserrouter */}
       <EasterEgg />
-      <BrowserRouter basename="/cv-sida-react" into browserrouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
