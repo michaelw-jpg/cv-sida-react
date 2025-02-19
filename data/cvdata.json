@@ -1,0 +1,42 @@
+{
+  "education": [
+    {
+      "title": "Fullstack .NET-utvecklare",
+      "institution": "Chas Academy",
+      "years": "2024-2026",
+      "description": "Utbildning inom webbutveckling med fokus på C#, MSSQL och JavaScript. Även ramverk så som React, .NET Core och Entity Framework."
+    },
+    {
+      "title": "Teknik-programmet",
+      "institution": "Wenströmska Gymnasie",
+      "years": "2008-2011",
+      "description": "Teknikprogrammet med inriktning mot IT och Teknik."
+    }
+  ],
+  "workExperience": [
+    {
+      "title": "Försäkringsrådgivare",
+      "company": "FörsäkringsPartner Öst AB",
+      "years": "2019-2023",
+      "description": "Försäkringsrådgivare för Länsförsäkringar. Ansvarig för att ge råd och sälja försäkringar till privatkunder samt hantera kundsupport för befintliga kunder i diverse ärenden."
+    },
+    {
+      "title": "Kommunikatör",
+      "company": "Silentium AB",
+      "years": "2015-2019",
+      "description": "Kommunikatör med fokus på försäljning av tjänster och produkter till privatpersoner, inklusive Telia telefoni/bredband, Boxer TV-abonnemang och Hyresgästföreningen medlemskap."
+    },
+    {
+      "title": "Vårdbiträde",
+      "company": "Västerås Stad",
+      "years": "2014-2015",
+      "description": "Arbete som vårdbiträde på äldreboende, med ansvar för personlig omvårdnad och städning."
+    },
+    {
+      "title": "Fritidsledare",
+      "company": "Malmabergskolan, Västerås",
+      "years": "2013-2014",
+      "description": "Arbete som fritidsledare med stöd vid fritidsaktiviteter och läxläsning för eleverna."
+    }
+  ]
+}
