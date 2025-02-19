@@ -11,9 +11,9 @@ import EasterEgg from "./components/easterEgg";
 function App() {
   return (
     <>
-      {/* basename="/cv-sida-react" into browserrouter*/}
+      {/* basename="/cv-sida-react" into browserrouter */}
       <EasterEgg />
-      <BrowserRouter>
+      <BrowserRouter basename="/cv-sida-react" into browserrouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
