@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="nav">
         <ul>
           <li>
-            <NavLink to="./">Home </NavLink>
+            <NavLink to="/">Home </NavLink>
           </li>
           <li>
             <NavLink to="./Cv">CV </NavLink>
