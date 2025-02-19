@@ -5,7 +5,7 @@ export default function CvDataparser() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("../src/data/cvData.json")
+    fetch("/cv-sida-react/data/cvData.json")
       .then((response) => response.json())
       .then((data) => {
         setTimeout(() => {
