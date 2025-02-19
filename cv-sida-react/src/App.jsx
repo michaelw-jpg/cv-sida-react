@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/cv-sida-react/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/CV" element={<CV />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/skills" element={<Skills />} />
