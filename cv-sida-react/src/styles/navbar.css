@@ -17,7 +17,19 @@
 }
 
 .nav a {
+  line-height: 1.5;
+  text-align: right;
+  float: left;
+
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: red;
+  color: black;
 }
 
 .nav .active {
