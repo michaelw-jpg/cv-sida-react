@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 
-nav a:hover {
+.nav li a:hover {
   background-color: red;
   color: black;
 }
